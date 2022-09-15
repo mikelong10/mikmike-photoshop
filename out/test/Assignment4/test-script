@@ -1,0 +1,3 @@
+load test/testImage.bmp img
+luma-component img img-luma
+q

@@ -1,0 +1,29 @@
+load boston.jpeg boston
+blur boston boston-blur
+sharpen boston boston-sharp
+sepia boston boston-sepia
+grayscale boston boston-gray
+vertical-flip boston boston-vert
+horizontal-flip boston boston-horiz
+red-component boston boston-red
+green-component boston boston-green
+blue-component boston boston-blue
+value-component boston boston-value
+luma-component boston boston-luma
+intensity-component boston boston-intensity
+brighten 30 boston boston-bright
+brighten -30 boston boston-dark
+save boston-blur boston-blur.png
+save boston-sharp boston-sharp.png
+save boston-sepia boston-sepia.png
+save boston-gray boston-gray.png
+save boston-vert boston-vert.png
+save boston-horiz boston-horiz.png
+save boston-red boston-red.png
+save boston-green boston-green.png
+save boston-blue boston-blue.png
+save boston-value boston-value.png
+save boston-luma boston-luma.png
+save boston-intensity boston-intensity.png
+save boston-bright boston-bright.png
+save boston-dark boston-dark.png
